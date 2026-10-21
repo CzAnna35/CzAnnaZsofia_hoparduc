@@ -36,3 +36,28 @@ img {
     margin: 20px;
 }
 
+nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+    .kartyak {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    nav ul {
+        grid-template-columns: 1fr;
+    }
+    .kartyak {
+        grid-template-columns: 1fr;
+    }
+}
