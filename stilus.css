@@ -1,6 +1,7 @@
 html {
     background-color: rgb(194, 231, 255);
     color: rgb(81, 94, 109);
+    margin: auto;
 }
 
 h1 {
@@ -11,6 +12,8 @@ h1 {
     letter-spacing: 5px;
     background-color: rgb(81, 94, 109);
     color: rgb(194, 231, 255);
+    padding: 25px;
+    margin: 0px 0px auto 0px;
 }
 
 h2 {
@@ -20,6 +23,7 @@ h2 {
     background-color: aliceblue;
     text-align: center;
     margin: 0px;
+    padding: 5px;
 }
 
 img {
@@ -52,6 +56,7 @@ a {
 p {
     size: 15px;
     text-align: justify;
+    padding: 10px;
 }
 
 @media screen and (max-width: 800px) {
