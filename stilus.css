@@ -1,0 +1,14 @@
+html {
+    background-color: rgb(237, 248, 255);
+    color: rgb(81, 94, 109);
+}
+
+h1 {
+    font-family: Broadway, sans-serif;
+    font-size: 40px;
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: 5px;
+    background-color: rgb(81, 94, 109);
+    color: rgb(237, 248, 255);
+}
