@@ -43,8 +43,15 @@ nav ul {
     text-align: center;
 }
 
-nav ul li {
+a {
     text-decoration: none;
+    color: rgb(0, 55, 117);
+    font-style: italic;
+}
+
+p {
+    size: 15px;
+    text-align: justify;
 }
 
 @media screen and (max-width: 800px) {
